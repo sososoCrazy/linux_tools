@@ -1,0 +1,46 @@
+"if has('win32')
+if $OS =~ "Windows.*"
+	set rtp+=~/vimfiles/bundle/Vundle.vim
+	source ~/vimfiles/vimrcs/setup.vimrc
+	source ~/vimfiles/vimrcs/plugin.vimrc
+	source ~/vimfiles/vimrcs/addtitle.vimrc
+	source ~/vimfiles/vimrcs/map.vimrc
+	source ~/vimfiles/bundle/vlog_inst_gen.vim
+	"call vundle#begin('~/vimfiles/bundle')
+"elseif has('unix')
+elseif $OS =~ "Unix"
+	set rtp+=~/.vim/bundle/Vundle.vim
+	source ~/.vim/vimrcs/setup.vimrc
+	source ~/.vim/vimrcs/plugin.vimrc
+	source ~/.vim/vimrcs/addtitle.vimrc
+	source ~/.vim/vimrcs/map.vimrc
+	source ~/.vim/bundle/vlog_inst_gen.vim
+	"call vundle#begin()
+else
+	set rtp+=~/.vim/bundle/Vundle.vim
+	source ~/.vim/vimrcs/setup.vimrc
+	source ~/.vim/vimrcs/plugin.vimrc
+	source ~/.vim/vimrcs/addtitle.vimrc
+	source ~/.vim/vimrcs/map.vimrc
+	source ~/.vim/bundle/vlog_inst_gen.vim
+	"call vundle#begin()
+endif
+
+"set rtp+=~/.vim/bundle/Vundle.vim
+
+"source ~/.vim_runtime/vimrcs/basic.vim
+"source ~/.vim_runtime/vimrcs/filetypes.vim
+"source ~/.vim_runtime/vimrcs/plugins_config.vim
+"source ~/.vim_runtime/vimrcs/extended.vim
+
+"try
+"source ~/.vim_runtime/vimrcs/my_configs.vim
+"catch
+"endtry
+
+"source ~/.vim/vimrc/setup.vimrc
+"source ~/.vim/vimrc/plugin.vimrc
+"source ~/.vim/vimrc/addtitle.vimrc
+"source ~/.vim/vimrc/map.vimrc
+
+"source ~/.vim_runtime/vimrcs/filetypes.vim

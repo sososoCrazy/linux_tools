@@ -1,0 +1,18 @@
+PING node9 (192.168.222.9) 56(84) bytes of data.	16:41:44 10/30/19
+64 bytes from node9 (192.168.222.9): icmp_seq=1 ttl=64 time=0.012 ms	16:41:44 10/30/19
+	16:41:45 10/30/19
+--- node9 ping statistics ---	16:41:45 10/30/19
+1 packets transmitted, 1 received, 0% packet loss, time 0ms	16:41:45 10/30/19
+rtt min/avg/max/mdev = 0.012/0.012/0.012/0.000 ms	16:41:45 10/30/19
+PING node9 (192.168.222.9) 56(84) bytes of data.	16:54:07 10/30/19
+64 bytes from node9 (192.168.222.9): icmp_seq=1 ttl=64 time=0.012 ms	16:54:07 10/30/19
+	16:54:08 10/30/19
+--- node9 ping statistics ---	16:54:08 10/30/19
+1 packets transmitted, 1 received, 0% packet loss, time 0ms	16:54:08 10/30/19
+rtt min/avg/max/mdev = 0.012/0.012/0.012/0.000 ms	16:54:08 10/30/19
+PING node9 (192.168.222.9) 56(84) bytes of data.	11:55:03 11/08/19
+64 bytes from node9 (192.168.222.9): icmp_seq=1 ttl=64 time=0.100 ms	11:55:03 11/08/19
+	11:55:04 11/08/19
+--- node9 ping statistics ---	11:55:04 11/08/19
+1 packets transmitted, 1 received, 0% packet loss, time 0ms	11:55:04 11/08/19
+rtt min/avg/max/mdev = 0.100/0.100/0.100/0.000 ms	11:55:04 11/08/19

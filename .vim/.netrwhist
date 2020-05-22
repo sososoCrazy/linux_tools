@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/export/pfs/home/lte_soc/guosijia/learn/c/xuyaoceshi'
+let g:netrw_dirhist_2='/export/pfs/home/lte_soc/guosijia/.vim/vimrcs'
+let g:netrw_dirhist_3='/export/pfs/home/lte_soc/guosijia/.vim'

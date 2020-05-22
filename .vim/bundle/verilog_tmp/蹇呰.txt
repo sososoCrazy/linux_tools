@@ -1,0 +1,7 @@
+1. 安装GVIM
+2. 安装完成后，将_vimrc文件覆盖到 xxx\Vim\下的_vimrc，即可
+
+3. 将filetype覆盖GVIM安装路径下的xxx\Vim\vim72\filetype文件；其中xxx为安装相对路径；
+4. 将systemverilog放入GVIM安装路径下的xxx\Vim\vim72\syntax文件下；其中xxx为安装相对路径；
+
+5. 将vimrc_example.vim覆盖到xxx\Vim\vim72\下面
